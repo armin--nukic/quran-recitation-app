@@ -75,3 +75,29 @@ The application should now be running at `http://localhost:3000`.
 
 ## Project Structure
 
+quran-recitation-app
+├── public
+│ ├── index.html
+│ └── styles.css
+├── app.js
+├── package.json
+├── package-lock.json
+├── Dockerfile
+├── .dockerignore
+└── docker-compose.yml
+
+
+
+## API Endpoints
+
+- `GET /reciters`: Returns a list of reciters with their YouTube video IDs.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- [Node.js](https://nodejs.org/)
+- [Express.js](https://expressjs.com/)
+- [YouTube](https://www.youtube.com/)
