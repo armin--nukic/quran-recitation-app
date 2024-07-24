@@ -26,24 +26,24 @@ These instructions will get you a copy of the project up and running on your loc
 
 1. Clone the repository:
 
-    ```bash
-    git clone https://github.com/yourusername/quran-recitation-app.git
-    cd quran-recitation-app
-    ```
+   ```bash
+   git clone https://github.com/yourusername/quran-recitation-app.git
+   cd quran-recitation-app
+   ```
 
 2. Install dependencies:
 
-    ```bash
-    npm install
-    ```
+   ```bash
+   npm install
+   ```
 
 3. Start the application:
 
-    ```bash
-    npm start
-    ```
+   ```bash
+   npm start
+   ```
 
-The application should now be running at `http://localhost:3000`.
+The application should now be running at `http://localhost:3333`.
 
 ## Running the Application in Docker
 
@@ -51,27 +51,27 @@ You can also run the application inside a Docker container.
 
 1. Build the Docker image:
 
-    ```bash
-    docker build -t quran-recitation-app .
-    ```
+   ```bash
+   docker build -t quran-recitation-app .
+   ```
 
 2. Run the Docker container:
 
-    ```bash
-    docker run -p 3000:3000 quran-recitation-app
-    ```
+   ```bash
+   docker run -p 3333:3000 quran-recitation-app
+   ```
 
-The application should now be running at `http://localhost:3000`.
+The application should now be running at `http://localhost:3333`.
 
 Alternatively, you can use Docker Compose:
 
 1. Start the application using Docker Compose:
 
-    ```bash
-    docker-compose up --build
-    ```
+   ```bash
+   docker-compose up --build
+   ```
 
-The application should now be running at `http://localhost:3000`.
+The application should now be running at `http://localhost:3333`.
 
 ## Project Structure
 
@@ -85,8 +85,6 @@ quran-recitation-app
 ├── Dockerfile
 ├── .dockerignore
 └── docker-compose.yml
-
-
 
 ## API Endpoints
 
