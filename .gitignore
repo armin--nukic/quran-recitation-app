@@ -19,8 +19,7 @@ build/
 
 # Docker
 .dockerignore
-Dockerfile
-docker-compose.yml
+
 
 # IDE specific files
 .idea/
