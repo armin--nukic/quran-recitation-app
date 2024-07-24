@@ -58,7 +58,7 @@ You can also run the application inside a Docker container.
 2. Run the Docker container:
 
    ```bash
-   docker run -p 3333:3000 quran-recitation-app
+   docker run -p 3333:3333 quran-recitation-app
    ```
 
 The application should now be running at `http://localhost:3333`.
