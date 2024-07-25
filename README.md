@@ -1,6 +1,14 @@
 # Quran Recitation App
 
-This is a simple Node.js application for listing and playing Quran recitations from various reciters using YouTube videos.
+This is a simple Node.js application that plays Quran recitations. The app is containerized using Docker and can be deployed to AWS ECS using Fargate.
+
+## Quick Start
+
+You can quickly pull and run the Docker image from Docker Hub using the following command:
+
+```sh
+docker run -d -p 3333:3333 arminnuk/quran-recitation-app:1
+```
 
 ## Features
 
